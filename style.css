@@ -1,0 +1,32 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+.navbtn {
+    width: 200px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 400px){
+    .navbtn {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 401px){
+    .navbtn {
+        background-color: blue;
+    }
+    .container {
+        width: 420px;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .navbtn {
+        background-color: red;
+    }
+    .container {
+        width: 100%;
+    }
+}
